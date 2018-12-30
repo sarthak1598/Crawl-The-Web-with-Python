@@ -6,12 +6,12 @@
 import csv # csv library for manipulation of csv file 
 
 import sys
- 
+ # opening the file object 
 file = open(sys.argv[1], ‘rb’)
-reader = csv.reader(f)
+reader = csv.reader(file)  # initialised object 
 
 for row in reader
-print row
+print row   # printing the data 
  
 f.close()
 
