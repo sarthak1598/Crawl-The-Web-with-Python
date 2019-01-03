@@ -8,7 +8,7 @@
  
  import urlparse 
 
- pageurl = raw_input("Please enter the web page url)
+ pageurl = raw_input("Please enter the web page url")
 
    try: 
 		pageresp = requests.get(pageurl)
