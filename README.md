@@ -44,8 +44,23 @@ Basically the purpose of web scrapping is to spider the website or the web appli
        
        
  # 5. bs4:
+ 
        bs4 module is used to extract data from HTML. 
        This can dissect a document and extract as our requirement. 
        It automatically converts incoming documents to Unicode and outgoing documents to UTF-8.
        
        ....pip install beautifulsoup4
+       
+ # 6 . Selenium:
+ 
+        Selenium is another useful web scaping module written in python 
+        In more generalised way , selenium gives the power to fully control the web browser accordingly 
+        It allows to add/enter the content in the structures . 
+        Installation:
+        pip install selenium 
+
+ # 7 . Mechanize:
+        mechanize.Browser implements the urllib2.OpenerDirector interface. Browser objects have state, including navigation history,      HTML form state and cookies.
+        installation : 
+        pip install mechanize 
+        
